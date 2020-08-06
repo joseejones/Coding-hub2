@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="Ke" dir="ltr">
+  <head>
+    <link href="josee.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="pp">Javascript can change the HTML content</p>
+    <script>
+  varx= myFunction(4,3);
+  // invoking myFunction
+  function myFunction(a,b){
+
+
+
+
+    // give me the product of a&
+    console.log(a*b);
+  }
+
+
+/*  var a=1;
+  for(;a<6;+=2){
+    a=a*a;
+  }
+  window.alert("a");*/
+
+  function toCelsius(fahrenheit){
+    return(5/9)*
+(fahrenheit-32);
+  }
+  document.getElementById('pp').innerHTML=toCelsius(100);
+  console.log("p");
+  document.getElementById('pp').innerHTML="Javascript is the best language to learn ever!";
+  console.log("p");
+
+  document.getElementById('pp').innerHTML=Date();
+  console.log("pp")
+
+
+  var d= new Date();
+  document.getElementById("pp").innerHTML=d;
+  console.log(d);
+
+
+    var onSale=true,
+    inventoryLevel=12,
+    discount=3; if(onSale && inventoryLevel>10){
+      console.log("We have plenty!");
+    }
+    if(onSale||discount>0){
+      console.log("On sale");
+    }
+    else{
+      console.log("Full price");
+    }
+
+
+   var a="Hello";
+    var b="My name is Jones and";
+    var c="I,m eighteen years old";
+  document.write(a+ b +c);
+
+  console.log(typeof 4.5);
+  //>number
+  console.log(typeof "HE is a good friend");
+  //>string
+
+  console.log(-(10-2));
+  //>-8
+
+  console.log(3>2);
+  //true
+
+  console.log(3<2);
+  //false
+
+  console.log("joseph">"Jones");
+  //false
+
+
+  console.log(5!=2);
+  //true
+
+
+console.log("Apple"=="Orange");
+  //true
+
+
+ console.log(true&&false);
+  //>false
+
+
+  console.log(false||false);
+  //false
+
+
+  console.log(false||true);
+  //>true
+
+  </script>
+
+  </body>
+</html>
